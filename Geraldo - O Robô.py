@@ -81,7 +81,7 @@ while len(componentes) < 3:
     posicao = (sorteio_x, sorteio_y)
    
     # Não pode começar no inicio (0,0), nem no servidor (4,4) e nem nos componentes
-    if posicao != (0, 0) and posicao != (4, 4) and posicao not in componentes and posicao not in componentes:
+    if posicao != (0, 0) and posicao != (4, 4) and posicao not in componentes:
         componentes.append(posicao) # adiciona o componente na lista
 
 # === SORTEIO DA POSIÇÃO DE UM BUG NOVO ===
